@@ -352,7 +352,7 @@ export default function Component() {
                     <Line
                       type="monotone"
                       dataKey="time"
-                      stroke="#adfa1d"
+                      stroke="dodgerblue"
                       strokeWidth={2}
                     />
                   </LineChart>
@@ -384,7 +384,11 @@ export default function Component() {
                       tickFormatter={(value) => `${value}%`}
                     />
                     <Tooltip />
-                    <Bar dataKey="rate" fill="#adfa1d" radius={[4, 4, 0, 0]} />
+                    <Bar
+                      dataKey="rate"
+                      fill="dodgerblue"
+                      radius={[4, 4, 0, 0]}
+                    />
                   </BarChart>
                 </ResponsiveContainer>
               </CardContent>
@@ -430,7 +434,7 @@ export default function Component() {
                       yAxisId="left"
                       type="monotone"
                       dataKey="sessions"
-                      stroke="#adfa1d"
+                      stroke="dodgerblue"
                       strokeWidth={2}
                     />
                     <Line
@@ -612,7 +616,7 @@ export default function Component() {
                     <Line
                       type="monotone"
                       dataKey="rate"
-                      stroke="#adfa1d"
+                      stroke="dodgerblue"
                       strokeWidth={2}
                     />
                   </LineChart>
@@ -643,7 +647,11 @@ export default function Component() {
                       axisLine={false}
                     />
                     <Tooltip />
-                    <Bar dataKey="count" fill="#adfa1d" radius={[4, 4, 0, 0]} />
+                    <Bar
+                      dataKey="count"
+                      fill="dodgerblue"
+                      radius={[4, 4, 0, 0]}
+                    />
                   </BarChart>
                 </ResponsiveContainer>
               </CardContent>
@@ -777,7 +785,7 @@ export default function Component() {
                     <Line
                       type="monotone"
                       dataKey="remaining"
-                      stroke="#adfa1d"
+                      stroke="dodgerblue"
                       strokeWidth={2}
                     />
                   </LineChart>
@@ -809,7 +817,11 @@ export default function Component() {
                       tickFormatter={(value) => `${value}h`}
                     />
                     <Tooltip />
-                    <Bar dataKey="time" fill="#adfa1d" radius={[4, 4, 0, 0]} />
+                    <Bar
+                      dataKey="time"
+                      fill="dodgerblue"
+                      radius={[4, 4, 0, 0]}
+                    />
                   </BarChart>
                 </ResponsiveContainer>
               </CardContent>
@@ -961,7 +973,7 @@ export default function Component() {
                     <Tooltip />
                     <Bar
                       dataKey="complexity"
-                      fill="#adfa1d"
+                      fill="dodgerblue"
                       radius={[4, 4, 0, 0]}
                     />
                   </BarChart>
